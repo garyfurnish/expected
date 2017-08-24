@@ -9,7 +9,7 @@
 #include <boost/expected/config.hpp>
 #include <boost/expected/detail/constexpr_utility.hpp>
 #include <boost/expected/detail/requires.hpp>
-#include <boost/functional/type_traits_t.hpp>
+#include <boost/type_traits/decay.hpp>
 
 #ifdef BOOST_EXPECTED_USE_BOOST_HPP
 #include <boost/exception_ptr.hpp>
